@@ -1,0 +1,1 @@
+azd auth login --use-device-code
