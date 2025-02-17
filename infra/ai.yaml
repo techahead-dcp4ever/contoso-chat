@@ -1,11 +1,10 @@
 # yaml-language-server: $schema=ai.yaml.json
 
 deployments:
-  - name: gpt-35-turbo
+  - name: DeepSeek-R1
     model:
       format: OpenAI
-      name: gpt-35-turbo
-      version: "0613"
+      name: DeepSeek-R1
     sku:
       name: Standard
       capacity: 20
