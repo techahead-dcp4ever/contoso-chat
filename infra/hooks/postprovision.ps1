@@ -30,7 +30,7 @@ if ([string]::IsNullOrEmpty($resourceGroupName) -or [string]::IsNullOrEmpty($ope
 
 # Set additional environment variables expected by app 
 # TODO: Standardize these and remove need for setting here
-azd env set AZURE_OPENAI_API_VERSION 2024-05-13
+azd env set AZURE_OPENAI_API_VERSION 2024-07-18
 azd env set AZURE_OPENAI_CHAT_DEPLOYMENT gpt-4o-mini
 azd env set AZURE_SEARCH_ENDPOINT $AZURE_SEARCH_ENDPOINT
 
