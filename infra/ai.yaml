@@ -7,7 +7,7 @@ deployments:
       name: gpt-4o-mini
       version: "2024-07-18"
     sku:
-      name: "Standard"
+      name: "GlobalStandard"
       capacity: 20
   - name: text-embedding-ada-002
     model:
