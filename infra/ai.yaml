@@ -1,10 +1,11 @@
 # yaml-language-server: $schema=ai.yaml.json
 
 deployments:
-  - name: DeepSeek-R1
+  - name: gpt-4o-mini
     model:
       format: OpenAI
-      name: DeepSeek-R1
+      name: gpt-4o-mini
+      version: "2024-07-18"
     sku:
       name: Standard
       capacity: 20

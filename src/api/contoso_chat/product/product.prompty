@@ -7,7 +7,7 @@ model:
   api: chat
   configuration:
     type: azure_openai
-    azure_deployment: DeepSeek-R1
+    azure_deployment: 2024-05-13
     azure_endpoint: ${ENV:AZURE_OPENAI_ENDPOINT}
   parameters:
     max_tokens: 1500
